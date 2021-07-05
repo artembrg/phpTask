@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #ddf0ff;
+}
+
+header {
+    font-size: 0;
+    background: linear-gradient(80deg, #91fffd, #91caff, #9193ff);
+    height: 50px;
+    padding: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: deepskyblue;
+}
+
+.header__ref {
+    margin-left: 70%;
+    width: 28%;
+    text-align: right;
+}
+
+h4 {
+    font-size: 25px;
+    padding-top: 10px;
+}

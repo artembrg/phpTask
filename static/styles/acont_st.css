@@ -1,0 +1,24 @@
+.main-content {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 200px;
+}
+
+#main_content_form_info {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.main-content__form {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+#main_content_errors_list {
+    text-align: left;
+    margin-left: 40%;
+    color: #FF6666;
+}

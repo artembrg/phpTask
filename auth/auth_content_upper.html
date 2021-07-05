@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="../static/styles/acont_st.css">
+<link rel="stylesheet" href="../static/styles/temp_st.css">
+<script src="../static/js/acont_scr.js"></script>
+<script>
+    let header_content = document.getElementById('header_content');
+    header_content.innerText = 'Регистрация';
+    header_content.setAttribute('href', 'javascript:RegForm()')
+</script>
+<div class="main-content">
+    <div id="main_content_form_info">
+        <h1 id="form_info_text">
+            Авторизация
+        </h1>
+    </div>
+    <form method="post" action="" class="main-content__form">
+        <input type="text" id="login" name="login" placeholder="Логин" required minlength="5">
+        <br>
+        <input type="hidden" id="email" name="email" placeholder="Электронная почта">
+        <br>
+        <input type="password" id="password" name="password" placeholder="Пароль" required minlength="8">
+        <br>
+        <input type="hidden" id="password_conf" name="password_conf" placeholder="Подтверждение пароля">
+        <br>
+        <button type="submit" id="submit" name="auth">
+            Авторизация
+        </button>
+    </form>

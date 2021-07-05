@@ -1,0 +1,23 @@
+        <li>
+            <form method="post" action="" enctype="multipart/form-data">
+                <input type="file" name="img" required>
+                <button type="submit" name="send">Отправить картинку</button>
+            </form>
+        </li>
+    </ul>
+</div>
+<div class="b-popup" id="exit_confirmation">
+    <div class="b-popup-content">
+        Вы точно хотите выйти?
+        <br>
+        <a href="auth/">Да</a>&nbsp&nbsp&nbsp
+        <a href="javascript:PopUpHide()">Нет</a>
+    </div>
+</div>
+<div class="b-popup" id="picture_box" onclick="PopUpPicHide()">
+    <div class="b-popup-picture">
+        <img src="" id="picture">
+    </div>
+</div>
+</body>
+</html>

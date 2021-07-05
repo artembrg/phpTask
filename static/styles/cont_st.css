@@ -1,0 +1,47 @@
+.main-content {
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: none;
+    border-radius: 30px 15px 30px 15px;
+    margin-top: 10px;
+    background: lightskyblue;
+    padding: 25px;
+}
+
+.b-popup {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    display: none;
+    top: 0;
+    text-align: center;
+}
+
+.b-popup-content {
+    margin: 200px auto 0 auto;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+}
+
+.b-popup-picture {
+    margin: 60px auto 0 auto;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+}
+
+#picture_box:hover {
+    cursor: pointer;
+}
+
+h4 {
+    color: #FF6666;
+    text-align: center;
+}
